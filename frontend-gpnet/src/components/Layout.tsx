@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { Link, Outlet } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBolt } from '@fortawesome/free-solid-svg-icons'
+import { faBolt, faLandmark } from '@fortawesome/free-solid-svg-icons'
 
 export default function Layout() {
   const [aberto, setAberto] = useState(false)
@@ -9,6 +9,7 @@ export default function Layout() {
   const itens = [
     { nome: 'Início', to: '/' },
     { nome: 'Arduino', to: '/post' },
+    { nome: 'Museu', to: '/museu', icone: faLandmark },
   ]
   const externos = [
     { nome: 'Componentes', href: 'https://embarcados.com.br/arduino-uno/' },

@@ -1,4 +1,4 @@
-import { useState, type FormEvent } from 'react'
+ import { useState, type FormEvent } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars, faXmark, faArrowRight, faLaptopCode, faChalkboardUser, faUserTie, faLandmark, faBriefcase, faChartLine, faRobot} from '@fortawesome/free-solid-svg-icons'
 import logo from '../img/logo.png'
