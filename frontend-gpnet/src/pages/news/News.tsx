@@ -216,7 +216,7 @@ export default function News() {
         </main>
 
       <footer className="py-8 text-center text-sm text-neutral-400 border-t border-neutral-200">
-        © 2026 Notícias Cidade - Projeto G&amp;P
+        © 2026 Notícias Cidade - Projeto G&amp;P | Todos os direitos reservados
       </footer>
     </div>
   )

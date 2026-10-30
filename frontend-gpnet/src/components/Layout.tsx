@@ -70,7 +70,7 @@ export default function Layout() {
           <div>
             <h4 className="text-rose-400 font-semibold mb-3">Sobre</h4>
             <p>Meu blog pessoal de tecnologia e eletrônica.</p>
-            <p className="text-sm text-slate-500 mt-2">© 2026 Blog da Eletrônica - Projeto G&amp;P</p>
+            <p className="text-sm text-slate-500 mt-2">© 2026 Blog da Eletrônica - Projeto G&amp;P | Todos os direitos reservados</p>
           </div>
         </div>
       </footer>

@@ -157,7 +157,7 @@ export default function Space() {
       </section>
 
       <footer className="bg-slate-950 py-8 px-6 text-center text-sm text-slate-400">
-        <p className="mb-1">© 2026 G&amp;P Agência Espacial - Projeto G&amp;P</p>
+        <p className="mb-1">© 2026 G&amp;P Agência Espacial - Projeto G&amp;P | Todos os direitos reservados</p>
         <div className="flex justify-center gap-6 text-xl">
           {redes.map((r, i) => (
             <a key={i} href="#" className="hover:text-sky-500 transition">

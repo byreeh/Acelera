@@ -194,7 +194,7 @@ export default function Museum() {
       </section>
 
       <footer className="py-6 text-center text-sm text-stone-500 bg-stone-950">
-        © 2026 Museu Nacional - Projeto G&amp;P
+        © 2026 Museu Nacional - Projeto G&amp;P | Todos os direitos reservados
       </footer>
 
       {foto && (
