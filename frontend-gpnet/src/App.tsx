@@ -5,6 +5,7 @@ import Blog from './pages/blog/Blog'
 import Post from './pages/blog/Post'
 import News from './pages/news/News'
 import Museum from './pages/museum/Museum'
+import Space from './pages/space/Space'
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       </Route>
       <Route path="/jornal" element={<News />} />
       <Route path="/museu" element={<Museum />} /> 
+      <Route path="/space" element={<Space />} /> 
     </Routes>
   )
 }
